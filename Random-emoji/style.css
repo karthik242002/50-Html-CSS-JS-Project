@@ -9,7 +9,6 @@ body{
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
 
-
 }
 h2{
     font-size: 2rem;
@@ -30,7 +29,6 @@ h2{
     transition: filter .2s ease-in-out;
     cursor: pointer;
 }
-
 .btn:hover{
     filter: grayscale(0);
 }

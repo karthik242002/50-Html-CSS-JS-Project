@@ -1,7 +1,6 @@
 const btnE1 = document.getElementById("btn");
 const emojiNameE1 = document.getElementById("emoji-name");
 
-
 const emoji = [];
 
 async function getEmoji(){
