@@ -1,6 +1,5 @@
 const containerE1 = document.querySelector(".container")
 
-
 window.addEventListener("mousemove", (event)=>{
     containerE1.innerHTML = `
     <div class="mouse-event">
