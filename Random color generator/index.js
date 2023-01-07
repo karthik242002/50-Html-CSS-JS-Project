@@ -8,15 +8,12 @@ for (let index = 0; index < 30; index++) {
 }
 
 const colorContainerE1s = document.querySelectorAll(".color-container")
-
 generateColors();
-
 function generateColors(){
     colorContainerE1s.forEach((colorContainerE1) =>{
         const newColorcode = randomColor();
         colorContainerE1.style.backgroundColor = "#"+ newColorcode;
         colorContainerE1.innerText = "#"+ newColorcode 
-
     });    
 }
 
