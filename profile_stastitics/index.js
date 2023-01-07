@@ -1,7 +1,5 @@
 const countersE1 = document.querySelectorAll(".counter")
 
-
-
 countersE1.forEach((counterE1)=>{
     counterE1.innerText = "0"
     incrementCounter();
@@ -21,7 +19,7 @@ countersE1.forEach((counterE1)=>{
             counterE1.innerText = 
             dataCeil
         }
-        
+               
 
 
     }
