@@ -30,8 +30,7 @@ formE1.addEventListener("submit", ()=>{
     if(score <= 0 ){
         score = 0
         updateLocalStorage()
-    }
-    
+    }    
 });
 function updateLocalStorage(){
     localStorage.setItem("score", JSON.stringify(score))
@@ -66,7 +65,6 @@ function updatetime(){
     }
     setTimeout(()=>{
         updatetime();
-
     }, 1000)
 }
 updatetime();
