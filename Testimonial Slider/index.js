@@ -21,11 +21,8 @@ const testimonial = [
 const imgE1 = document.querySelector("img")
 const testE1 = document.querySelector(".text")
 const usernameE1 = document.querySelector(".username");
-
 let idx = 0;
-
 updateTestimonial();
-
 function updateTestimonial(){
     const { name, photoUrl, text } = testimonials[idx];
     imgE1.src = photoUrl
@@ -33,7 +30,6 @@ function updateTestimonial(){
     usernameE1.innerText = name
     if(idx === testimonials.length){
         idx = 0
-
     }
     idx++
     setTimeout(()=>{
