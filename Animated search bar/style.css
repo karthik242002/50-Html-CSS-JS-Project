@@ -48,14 +48,10 @@ body{
     color: rgb(100,100,100);
     transition: width 1s;
     transition-delay: 0.5s;
-    
-
 }
 
 .active.search-bar-container{
     width: 50px;
-
-
 }
 
 .active .input{
