@@ -53,12 +53,9 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
-
 .btn:hover{
     fill: brightness(1.5);
-
 }
-
 #prev{
     left: 20%;
 

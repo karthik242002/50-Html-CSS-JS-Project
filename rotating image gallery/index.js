@@ -8,13 +8,11 @@ prevE1.addEventListener("click", () => {
     x= x + 45;
     clearTimeout(timer);
     updateGallery();
-
 });
 nextE1.addEventListener("click", () => {
     x= x - 45;
     clearTimeout(timer);
     updateGallery();
-
 });
 
 function updateGallery() {
