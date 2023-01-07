@@ -10,16 +10,12 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-
-
 }
 .top-container h1{
     color: white;
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px; 
-
-
+    letter-spacing: 2px;
 }
 .text{
     margin: 50px 5%;
