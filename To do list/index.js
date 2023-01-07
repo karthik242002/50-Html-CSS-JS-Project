@@ -16,7 +16,6 @@ list.forEach((task)=>{
 });
 }
 
-
 formE1.addEventListener("submit", (e)=>{
     e.preventDefault();
     toDoList();
