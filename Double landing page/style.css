@@ -6,8 +6,6 @@ body{
     align-items: center;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-
 }
 h1{
     font-size: 100px;
@@ -16,7 +14,6 @@ h1{
     letter-spacing: 4px;
 
 }
-
 .btn{
     background-color: black;
     color: white;
