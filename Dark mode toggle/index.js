@@ -5,8 +5,6 @@ const bodyE1 = document.querySelector("body")
 inputE1.checked = JSON.parse(localStorage.getItem("mode"));
 
 updateBody()
-
-
 function updateBody(){
     if(inputE1.checked){
         bodyE1.style.background = "black"
