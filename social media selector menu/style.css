@@ -33,9 +33,7 @@ body{
     margin: 0 10px;
     display: flex;
     align-items: center;
-
 }
-
 .social-lists{
     background: lightgray;
     width: 300px;
@@ -43,9 +41,7 @@ body{
     opacity: 0.3;
     list-style-type: none;
     border-radius: 5px;
-
 }
-
 .social-lists li {
     display: flex;
     align-items: center;
