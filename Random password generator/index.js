@@ -15,9 +15,7 @@ copyIconE1.addEventListener("click", ()=>{
         alertContainerE1.classList.add("active");
 
     }, 2000);
-
-    }
-    
+    }   
 
 });
 
@@ -37,6 +35,5 @@ function copyPassword(){
     inputE1.select();
     inputE1.setSelectionRange(0, 9999);
     navigator.clipboard.writeText(inputE1.value);
-
 }
 
