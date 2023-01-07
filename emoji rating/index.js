@@ -14,7 +14,6 @@ function updateRating(index){
         }else{
             starE1.classList.remove("active")
         }
-
     })
     emojisE1.forEach(emojiE1=>{
         emojiE1.style.transform = `translateX(-${index * 50}px)`
