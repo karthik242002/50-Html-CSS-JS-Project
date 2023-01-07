@@ -10,18 +10,15 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: 100%;
-
 }
 
 .container{
     padding: 100px;
-    background: slateblue;
-    
+    background: slateblue; 
 }
 
 h1{
     font-size: 50px;
-
 }
 
 p{
