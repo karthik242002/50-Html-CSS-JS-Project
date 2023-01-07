@@ -17,9 +17,7 @@ span{
     top: 50%;
     transform: translate(-50%, -50%);
     animation: animate 6s linear;
-
 }
-
 @keyframes animate {
     0%{
         transform: translate(-50%, -50%);
