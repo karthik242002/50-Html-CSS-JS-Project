@@ -36,7 +36,6 @@ for (let i = 1; i <= lastDay; i++) {
         days += `<div class="today">${i}</div>`;
     }else{
         days += `<div>${i}</div>`;
-    }
-        
+    }        
 }
 daysEl.innerHTML = days;
