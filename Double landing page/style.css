@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+h1{
+    font-size: 100px;
+    color: aliceblue;
+    
+    letter-spacing: 4px;
+
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: 4px solid;
+    cursor: pointer;
+    transition: 1s background-color;
+    white-space: nowrap;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.split{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+
+}
+
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: rgb(255, 192, 203);
+    background-image: url("https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664008855/Croma%20Assets/Communication/Mobiles/Images/243517_0_g3gvu2.png/mxw_640,f_auto");
+    background-size: cover;
+    bottom: cover;
+    
+}
+
+.split.right{
+    position: absolute;
+    right: 0;
+    background-color: lightblue;
+    background-image: url("https://m.media-amazon.com/images/I/81kfA-GtWwL.jpg");
+    background-size: cover;
+    bottom: cover;
+}
+
+.active-left .left{
+    width: 75%;
+}
+
+.active-left .right{
+    width: 25%;
+}
+
+.active-right .left{
+    width: 25%;
+
+}
+.active-right .right{
+    width: 75%;
+}
+
+.left , .right{
+    transition: width 2s ease-in-out;
+}
+
+

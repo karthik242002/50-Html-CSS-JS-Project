@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.bg-image{
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.container{
+    padding: 100px;
+    background: slateblue;
+    
+}
+
+h1{
+    font-size: 50px;
+
+}
+
+p{
+    color: black;
+}
+
+
+
+@media (max-width:500px) {
+    .container{
+        padding: 10px;
+    }
+}
