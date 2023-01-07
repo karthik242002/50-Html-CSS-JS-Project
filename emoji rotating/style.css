@@ -5,9 +5,7 @@ body{
     height: 100vh;
     align-items: center;
     background-color: yellow;
-
 }
-
 .feedback-container{
     background-color: white;
     width: 400px;
@@ -15,9 +13,6 @@ body{
     box-shadow: 0 4px 8px rgba(0,0,0,.3);
     border-radius: 10px;
     position: relative;
-
-
-
 }
 .emoji-container{
     position: absolute;
@@ -29,12 +24,7 @@ body{
     border-radius: 50%;
     display: flex;
     overflow: hidden;
-  
-
-
 }
-
-
 .far{
     margin: 1px;
     transform: translateX(0);
