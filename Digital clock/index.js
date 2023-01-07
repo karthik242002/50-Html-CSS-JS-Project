@@ -25,7 +25,6 @@ function updateclock(){
     ampmE1.innerText = ampm;
     setTimeout(()=>{
         updateclock();
-
     }, 1000)
 }
  updateclock();
